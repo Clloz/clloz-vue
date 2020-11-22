@@ -1,0 +1,32 @@
+{
+    "name": "clloz-vue",
+    "version": "1.0.0",
+    "description": "This repository is for vue source code learning and implement a simulation of vue.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Clloz/clloz-vue.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Clloz/clloz-vue/issues"
+    },
+    "homepage": "https://github.com/Clloz/clloz-vue#readme",
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.13.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^6.15.0",
+        "eslint-plugin-html": "^6.1.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.2.0",
+        "stylelint": "^13.8.0",
+        "stylelint-config-standard": "^20.0.0"
+    }
+}

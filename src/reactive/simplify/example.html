@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>two ways binding simulation</title>
+    </head>
+    <body>
+        <input id="be-watch" type="text" />
+        <p id="show"></p>
+    </body>
+    <script>
+        let obj = {
+            getVal: 0,
+        };
+
+        let cache = obj.getVal;
+
+        let input = document.getElementById('be-watch');
+        let p = document.getElementById('show');
+        input.addEventListener('input', e => {
+            obj.getVal = e.target.value;
+        });
+
+        Object.defineProperty(obj, 'getVal', {
+            enumerable: true,
+            configurable: true,
+            get() {
+                return cache;
+            },
+            set(val) {
+                cache = val;
+                input.value = val;
+                p.innerHTML = val;
+            },
+        });
+    </script>
+</html>
