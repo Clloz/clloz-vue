@@ -1,10 +1,10 @@
 /*
  * @Author: Clloz
  * @Date: 2020-11-21 01:52:59
- * @LastEditTime: 2020-11-22 02:11:08
+ * @LastEditTime: 2020-11-23 17:38:56
  * @LastEditors: Clloz
  * @Description: 依赖管理中心
- * @FilePath: /clloz-vue/src/reactive/Dep.js
+ * @FilePath: /clloz-vue/src/reactive/dep.mjs
  * @博观而约取，厚积而薄发，日拱一卒，日进一寸。
  */
 function remove(arr, item) {

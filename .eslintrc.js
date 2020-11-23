@@ -1,7 +1,7 @@
 /*
  * @Author: Clloz
  * @Date: 2020-11-20 18:04:19
- * @LastEditTime: 2020-11-22 02:19:49
+ * @LastEditTime: 2020-11-22 11:18:27
  * @LastEditors: Clloz
  * @Description:
  * @FilePath: /clloz-vue/.eslintrc.js
@@ -53,5 +53,6 @@ module.exports = {
         'prefer-const': 'off',
         'no-restricted-syntax': 'off',
         'import/extensions': 'off',
+        'consistent-return': 'off',
     },
 };
